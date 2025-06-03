@@ -1,0 +1,16 @@
+﻿Build started 8/6/2018 11:06:10 AM.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\c_exe.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\c_exe.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\Debug\c_exe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\Debug\c_exe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\Debug\c_exe.lib" /MACHINE:X86 Debug\c_exe.obj
+         Debug\stdafx.obj
+     1>c_exe.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) float __cdecl bfa_main(int &,int &,unsigned char *,unsigned int,unsigned int,unsigned int,unsigned int,float)" (__imp_?bfa_main@@YAMAAH0PAEIIIIM@Z) referenced in function _wmain
+     1>C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\Debug\c_exe.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_exe\c_exe\c_exe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

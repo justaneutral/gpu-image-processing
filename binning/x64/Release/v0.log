@@ -1,0 +1,1550 @@
+﻿Build started 7/20/2018 10:22:30 AM.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\v0.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\parallelsumseqventialcorrtexture.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I. /FIcuda_runtime.h /c C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\toptestparsumsercortexture.cu 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\v0.vcxproj" (1) is building "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\v0.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file toptestparsumsercortexture.cu...
+         cmd.exe /C "C:\Users\PaulDourbal\AppData\Local\Temp\tmp7619394c7f6146479f4ab9e0085e7f42.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2  /Zi  /MD " -o x64\Release\toptestparsumsercortexture.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\toptestparsumsercortexture.cu"
+         
+         C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2  /Zi  /MD " -o x64\Release\toptestparsumsercortexture.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\toptestparsumsercortexture.cu" 
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(134): warning C4005: '_CRT_SECURE_NO_DEPRECATE' : macro redefinition
+                 c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\nvidiaCUDA90common\inc\helper_string.h(23) : see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(135): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/host_config.h(199) : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\NormCorrThreadFenceReduction_kernel.cuh(530): warning : variable "binnedwidth" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(35): warning : variable "c" was set but never used
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(418): warning : specifiers after comma between declarations are nonstandard
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(465): warning : specifiers after comma between declarations are nonstandard
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(445): warning : loop is not reachable
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(253): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(262): warning : transfer of control bypasses initialization of:
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(276): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(277): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(297): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(300): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(301): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(302): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(305): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(361): warning : transfer of control bypasses initialization of:
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(370): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(372): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(375): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(377): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(385): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(388): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(389): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(390): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(396): warning : transfer of control bypasses initialization of:
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(398): warning : transfer of control bypasses initialization of:
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "I" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "II" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "IT" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "fDenom" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "Numerator" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "Denominator" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "corrval" was declared but never referenced
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(15162): warning : integer operation result is out of range
+                   detected during:
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(15513): warning : statement is unreachable
+                   detected during:
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(134): warning C4005: '_CRT_SECURE_NO_DEPRECATE' : macro redefinition
+                 c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\nvidiaCUDA90common\inc\helper_string.h(23) : see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(135): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/host_config.h(199) : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(15513): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29156): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29467): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29533): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29713): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(29917): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(37304): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(37790): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\Cimg.h(49809): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\parallelsummation_multiplecorrelation_texture_binning_v3\NormCorrThreadFenceReduction_kernel.cuh(530): warning : variable "binnedwidth" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(35): warning : variable "c" was set but never used
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(418): warning : specifiers after comma between declarations are nonstandard
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(465): warning : specifiers after comma between declarations are nonstandard
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(445): warning : loop is not reachable
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(253): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(256): warning : transfer of control bypasses initialization of:
+                     variable "srclen"
+         (259): here
+                     variable "reflen"
+         (259): here
+                     variable "dcorrelation"
+         (260): here
+                     variable "dsrc"
+         (261): here
+                     variable "dref"
+         (261): here
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(262): warning : transfer of control bypasses initialization of:
+                     variable "binnedref"
+         (275): here
+                     variable "binnedsrc"
+         (275): here
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(276): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(277): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(297): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(300): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(301): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(302): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(305): warning : transfer of control bypasses initialization of:
+                     variable "fly"
+         (343): here
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(361): warning : transfer of control bypasses initialization of:
+                     variable "h_odata"
+         (362): here
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(370): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(372): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(375): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(377): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(385): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(388): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(389): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(390): warning : transfer of control bypasses initialization of:
+                     variable "prevpositionx"
+         (394): here
+                     variable "prevpositiony"
+         (394): here
+                     variable "postpositionx"
+         (394): here
+                     variable "postpositiony"
+         (394): here
+                     variable "corrvalmax"
+         (395): here
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(396): warning : transfer of control bypasses initialization of:
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(398): warning : transfer of control bypasses initialization of:
+                     variable "step"
+         (400): here
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "I" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "II" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(240): warning : variable "IT" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "fDenom" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "Numerator" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "Denominator" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(244): warning : variable "corrval" was declared but never referenced
+         
+         toptestparsumsercortexture.cu
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(88): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(195): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(196): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(450): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/parallelsummation_multiplecorrelation_texture_binning_v3/toptestparsumsercortexture.cu(452): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\v0.vcxproj" (CudaBuildCore target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\parallelsumseqventialcorrtexture.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cufft.lib cufftw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\parallelsumseqventialcorrtexture.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\parallelsumseqventialcorrtexture.lib" /MACHINE:X64 x64\Release\toptestparsumsercortexture.cu.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         v0.vcxproj -> C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\parallelsumseqventialcorrtexture.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\parallelsumseqventialcorrtexture.unsuccessfulbuild".
+         Touching "x64\Release\parallelsumseqventialcorrtexture.lastbuildstate".
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\parallelsummation_multiplecorrelation_texture_binning_v3\v0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.20

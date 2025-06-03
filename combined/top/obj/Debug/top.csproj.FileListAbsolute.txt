@@ -1,0 +1,12 @@
+C:\paul\prj\cuda\umbrella\umbrella\top\bin\Debug\top.exe.config
+C:\paul\prj\cuda\umbrella\umbrella\top\bin\Debug\top.exe
+C:\paul\prj\cuda\umbrella\umbrella\top\bin\Debug\top.pdb
+C:\paul\prj\cuda\umbrella\umbrella\top\obj\Debug\top.exe
+C:\paul\prj\cuda\umbrella\umbrella\top\obj\Debug\top.pdb
+C:\paul\prj\cuda\umbrella\umbrella\top\obj\Debug\top.csprojResolveAssemblyReference.cache
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\umbrella\top\bin\Debug\top.exe.config
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\top\bin\Debug\top.exe.config
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\top\bin\Debug\top.exe
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\top\bin\Debug\top.pdb
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\top\obj\Debug\top.exe
+C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\top\obj\Debug\top.pdb

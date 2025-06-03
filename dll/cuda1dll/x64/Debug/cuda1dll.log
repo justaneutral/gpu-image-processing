@@ -1,0 +1,682 @@
+﻿Build started 8/13/2018 12:14:43 PM.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\cuda1dll.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\bfa_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DNDEBUG /DWINDOWS /D_USRDLL /DTESTLIB_EXPORTS /DNDEBUG /DWIN64 /D_USRDLL /DBFA_LIB_EXPORTS /D_WINDLL /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I. /FIcuda_runtime.h /c C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\bfa_kernel.cu 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\cuda1dll.vcxproj" (1) is building "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\cuda1dll.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file bfa_kernel.cu...
+         cmd.exe /C "C:\Users\PaulDourbal\AppData\Local\Temp\tmp730b02187f5e4613bbc9d2c5d634df37.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DNDEBUG -DWINDOWS -D_USRDLL -DTESTLIB_EXPORTS -DNDEBUG -DWIN64 -D_USRDLL -DBFA_LIB_EXPORTS -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /Zi /RTC1 /MDd " -o x64\Debug\bfa_kernel.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\bfa_kernel.cu"
+         
+         C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DNDEBUG -DWINDOWS -D_USRDLL -DTESTLIB_EXPORTS -DNDEBUG -DWIN64 -D_USRDLL -DBFA_LIB_EXPORTS -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /Zi /RTC1 /MDd " -o x64\Debug\bfa_kernel.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\bfa_kernel.cu" 
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(135): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/host_config.h(199) : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(92): warning : pointless comparison of unsigned integer with zero
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned char]" 
+         (59216): here
+                     instantiation of "const cimg_library::CImgList<cimg_library::CImgList<T>::ucharT> &cimg_library::CImgList<T>::font(unsigned int, __nv_bool) [with T=unsigned char]" 
+         (44349): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_text(int, int, const char *, const tc1 *, const tc2 *, float, unsigned int, ...) [with T=unsigned char, tc1=unsigned char, tc2=unsigned char]" 
+         (60352): here
+                     instantiation of "int cimg_library::cimg::dialog(const char *, const char *, const char *, const char *, const char *, const char *, const char *, const char *, const cimg_library::CImg<t> &, __nv_bool) [with t=unsigned char]" 
+         (60491): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(15162): warning : integer operation result is out of range
+                   detected during:
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=double]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=double]" 
+         (19581): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=unsigned int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=unsigned int]" 
+         (19582): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=int]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=int]" 
+         (19597): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::constant(double) [with T=float]" 
+         (15439): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(15513): warning : statement is unreachable
+                   detected during:
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=char]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=char]" 
+         (15855): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=UINT_PTR]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=UINT_PTR]" 
+         (17565): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+                   detected during:
+                     instantiation of "cimg_library::CImg<T> cimg_library::CImg<T>::get_resize(int, int, int, int, int, unsigned int, float, float, float, float) const [with T=float]" 
+         (29042): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::resize(int, int, int, int, int, unsigned int, float, float, float, float) [with T=float]" 
+         (45639): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::_draw_object3d(void *, cimg_library::CImg<tz> &, float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const to &, unsigned int, __nv_bool, float, float, float, float, float, float, float) [with T=unsigned char, tz=float, tp=float, tf=unsigned int, tc=unsigned char, to=cimg_library::CImg<float>]" 
+         (45413): here
+                     instantiation of "cimg_library::CImg<T> &cimg_library::CImg<T>::draw_object3d(float, float, float, const cimg_library::CImg<tp> &, const cimg_library::CImgList<tf> &, const cimg_library::CImgList<tc> &, const cimg_library::CImg<to> &, unsigned int, __nv_bool, float, float, float, float, float, float, cimg_library::CImg<tz> &) [with T=unsigned char, tp=float, tf=unsigned int, tc=unsigned char, to=float, tz=float]" 
+         (47146): here
+                     instantiation of "cimg_library::CImg<cimg_library::CImg<T>::intT> cimg_library::CImg<T>::_select(cimg_library::CImgDisplay &, const char *, unsigned int, unsigned int *, int, int, int, __nv_bool, __nv_bool, __nv_bool) const [with T=double]" 
+         (51051): here
+                     [ 2 instantiation contexts not shown ]
+                     instantiation of "double cimg_library::CImg<T>::_cimg_math_parser::mp_display_memory(cimg_library::CImg<T>::_cimg_math_parser &) [with T=float]" 
+         (17753): here
+                     instantiation of "unsigned int cimg_library::CImg<T>::_cimg_math_parser::compile(char *, char *, unsigned int, unsigned int *) [with T=float]" 
+         (15235): here
+                     instantiation of "cimg_library::CImg<T>::_cimg_math_parser::_cimg_math_parser(const char *, const char *, const cimg_library::CImg<T> &, cimg_library::CImg<T> *, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *, __nv_bool) [with T=float]" 
+         (24365): here
+                     instantiation of "double cimg_library::CImg<T>::_eval(cimg_library::CImg<T> *, const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (24349): here
+                     instantiation of "double cimg_library::CImg<T>::eval(const char *, double, double, double, double, const cimg_library::CImgList<T> *, cimg_library::CImgList<T> *) const [with T=float]" 
+         (60513): here
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(135): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/host_config.h(199) : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(15513): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29156): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29467): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29533): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29713): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(29917): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(37304): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(37790): warning : statement is unreachable
+         
+     1>c:\paul\prj\0_active\nexgenplatform\gpu\alignmentpoc\alignmentdll\c_dll_fast_vis\cuda1dll\Cimg.h(49809): warning : statement is unreachable
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(92): warning : pointless comparison of unsigned integer with zero
+         
+         bfa_kernel.cu
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(90): warning C4244: 'initializing' : conversion from 'float' to 'uchar', possible loss of data
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(614): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(616): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(630): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/c_dll_fast_vis/cuda1dll/bfa_kernel.cu(631): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\cuda1dll.vcxproj" (CudaBuildCore target(s)).
+     1>ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\top\bin\Debug\bfa_dll.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\top\bin\Debug\bfa_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\top\bin\Debug\bfa_dll.lib" /MACHINE:X64 /DLL x64\Debug\bfa_kernel.cu.obj
+         x64\Debug\bfa_main.obj
+            Creating library ..\top\bin\Debug\bfa_dll.lib and object ..\top\bin\Debug\bfa_dll.exp
+         cuda1dll.vcxproj -> C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\..\top\bin\Debug\bfa_dll.dll
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\bfa_dll.unsuccessfulbuild".
+         Touching "x64\Debug\bfa_dll.lastbuildstate".
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\c_dll_fast_vis\cuda1dll\cuda1dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.34

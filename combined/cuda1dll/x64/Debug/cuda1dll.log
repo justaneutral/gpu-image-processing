@@ -1,0 +1,34 @@
+﻿Build started 7/10/2018 10:24:58 AM.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\bfa_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" (1) is building "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+       Skipping target "CudaBuildCore" because all output files are up-to-date with respect to the input files.
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" (CudaBuildCore target(s)).
+     1>ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         cuda1dll.vcxproj -> C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\..\top\bin\Debug\bfa_dll.dll
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\bfa_dll.unsuccessfulbuild".
+         Touching "x64\Debug\bfa_dll.lastbuildstate".
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.21

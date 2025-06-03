@@ -1,0 +1,18 @@
+﻿Build started 7/11/2018 10:48:51 AM.
+     1>Project "G:\paul\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         cuda1dll.vcxproj -> G:\paul\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\..\top\bin\Release\bfa_dll.dll
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+     1>Done Building Project "G:\paul\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpu_cpu_for_report\cuda1dll\cuda1dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

@@ -1,0 +1,73 @@
+﻿Build started 7/3/2018 11:34:55 AM.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\cuda1dll.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\bfa_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DNDEBUG /DWINDOWS /D_USRDLL /DTESTLIB_EXPORTS /DNDEBUG /DWIN64 /D_USRDLL /DBFA_LIB_EXPORTS /D_WINDLL /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" /I. /FIcuda_runtime.h /c C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\bfa_kernel.cu 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+     1>Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\cuda1dll.vcxproj" (1) is building "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\cuda1dll.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file bfa_kernel.cu...
+         cmd.exe /C "C:\Users\PaulDourbal\AppData\Local\Temp\tmp5b9a7cd07bcc424fad2ec5a167b2efc7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DNDEBUG -DWINDOWS -D_USRDLL -DTESTLIB_EXPORTS -DNDEBUG -DWIN64 -D_USRDLL -DBFA_LIB_EXPORTS -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /Zi /RTC1 /MDd " -o x64\Debug\bfa_kernel.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\bfa_kernel.cu"
+         
+         C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DNDEBUG -DWINDOWS -D_USRDLL -DTESTLIB_EXPORTS -DNDEBUG -DWIN64 -D_USRDLL -DBFA_LIB_EXPORTS -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /Zi /RTC1 /MDd " -o x64\Debug\bfa_kernel.cu.obj "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\bfa_kernel.cu" 
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(29): warning : missing return statement at end of non-void function "gpuassert"
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(97): warning : variable "state" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(99): warning : variable "retcnt" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(179): warning : variable "posx" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(179): warning : variable "posy" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(239): warning : variable "global_now" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(240): warning : variable "cpu_now" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(29): warning : missing return statement at end of non-void function "gpuassert"
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(97): warning : variable "state" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(99): warning : variable "retcnt" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(179): warning : variable "posx" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(179): warning : variable "posy" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(239): warning : variable "global_now" was declared but never referenced
+         
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(240): warning : variable "cpu_now" was declared but never referenced
+         
+         bfa_kernel.cu
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(167): warning C4244: 'argument' : conversion from 'uint' to 'float', possible loss of data
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(181): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(183): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(240): warning C4101: 'cpu_now' : unreferenced local variable
+     1>C:/paul/prj/0_active/NexGenPlatform/GPU/AlignmentPOC/alignmentdll/cs_exe_and_c_dll_multithread_gpuserver/cuda1dll/bfa_kernel.cu(239): warning C4101: 'global_now' : unreferenced local variable
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\cuda1dll.vcxproj" (CudaBuildCore target(s)).
+     1>ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\top\bin\Debug\bfa_dll.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\top\bin\Debug\bfa_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\top\bin\Debug\bfa_dll.lib" /MACHINE:X64 /DLL x64\Debug\bfa_kernel.cu.obj
+         x64\Debug\bfa_main.obj
+         cuda1dll.vcxproj -> C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\..\top\bin\Debug\bfa_dll.dll
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "..\top\bin\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\bfa_dll.unsuccessfulbuild".
+         Touching "x64\Debug\bfa_dll.lastbuildstate".
+     1>Done Building Project "C:\paul\prj\0_active\NexGenPlatform\GPU\AlignmentPOC\alignmentdll\cs_exe_and_c_dll_multithread_gpuserver\cuda1dll\cuda1dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.93
